@@ -1,0 +1,1392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025479F3F621E5CF878BA32BBCA8A7D3 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27BA16B95F88482EE9D1D47E4AAC54 /* SkyFloatingLabelTextField.swift */; };
+		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 38890C8DFB1A2A9A5E884B8670FA4AC8 /* GTMSessionFetcherLogging.m */; };
+		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 913A6EC39AA975E3F2985C2ECD19EB21 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278B1F0742FBAAF52B0CE69BB234F7B0 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4017726B666FF0BF605AE578A0817E0 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		2E08EE7618B68E96823DA0496A5C79E7 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B7FDF54F35D3FF402DEA22D1093D0 /* UITextField+fixCaretPosition.swift */; };
+		42FF475B779E2598BFBB0E259EC03830 /* Pods-BroncoHack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF8E97B745C648FFD9D6D6E7427E0A /* Pods-BroncoHack-dummy.m */; };
+		50609A97FC1D70753AA25867F3DB260F /* Pods-BroncoHackTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6146F046E506045EADA1123A5A709668 /* Pods-BroncoHackTests-dummy.m */; };
+		507EC65F3D760296A876CC2D7AC37B38 /* Pods-BroncoHackUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D729FDBA73B5A995A07FF9B5060425 /* Pods-BroncoHackUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4EF9387DEAC01C10BDDC717B632B99 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D209233FBF0FFF430D05E425088E223 /* GTMSessionFetcher.m */; };
+		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB0431C468C3DBBD37B2AA76C4BE6B9 /* GTMSessionFetcher-dummy.m */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D930A3E8EF960F9567D41835D2CD2EE /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D35BE2A8DA4F3039C13D9BFE06D3157 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0949F63A2FD04FCC0DF6A4090E40FD /* Pods-BroncoHack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A21B98704BD9D0962E599CD9394941E /* Pods-BroncoHack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9024F4774BD8DDE03700B223CF7F8164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F7858944949D3DB63241B69D248BD /* GTMSessionFetcherService.m */; };
+		9DA28C3544749A7DB9AB129BEC773550 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		9DB0D5FA64F3B454190E110A13765BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		B3495A09A1613E448CB336AEFE617C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		C13730814406B5DC2702B1D968510C35 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BE054CB5F113A44D3FD3E4A15EF6A0 /* SkyFloatingLabelTextField-dummy.m */; };
+		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9DDCC4FB540D2D095C9EF7AD06D1F8 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA4B18874234D65F8AEC31D287AD0CBE /* Pods-BroncoHackUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18528171C873965D5C955767073DE179 /* Pods-BroncoHackUITests-dummy.m */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8F6B53523CB72CD0A848DEB30CAE7F /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC3A5DC7B6D2EC8380A23C8D0F3B9FC /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30227C659BD6377E7465432CC884563E /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C319B52DB119B6E719A17B749BA69C2 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AD454E49DCDDFCC2C27EDC45E9F4B699 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC2E6012D9AC8CF4488B7D8B7E917EF /* GTMSessionUploadFetcher.m */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CC1BF2F9674AFF5A9EB41226D864A7 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7656A32E490D53165A6315BA347871 /* GoogleToolboxForMac-dummy.m */; };
+		FC3257591CC488AFA775A018DCAFC085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		FE472C30F1165390B13A76FF92120849 /* Pods-BroncoHackTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1701E520B0112920C3C59A478DC00287 /* Pods-BroncoHackTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFE1F1CAB95B03A90C0A6975CA5EF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56109AAD0FDC8A9680CE328E7F333086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0ACBEBFB52A4FE5D864404493DC241;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		B8233D26C0E4EA4044C913AE5046B6E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		CACA8F4349C26793BFFBF0B95A2E64B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
+			remoteInfo = GTMSessionFetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B07D1B24413BD6A7B08D425787F8B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0D209233FBF0FFF430D05E425088E223 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		0D35BE2A8DA4F3039C13D9BFE06D3157 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		0D68CFB5177A3A2118219A08AB58C54D /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		0F0F7858944949D3DB63241B69D248BD /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1701E520B0112920C3C59A478DC00287 /* Pods-BroncoHackTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BroncoHackTests-umbrella.h"; sourceTree = "<group>"; };
+		18528171C873965D5C955767073DE179 /* Pods-BroncoHackUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BroncoHackUITests-dummy.m"; sourceTree = "<group>"; };
+		1A21B98704BD9D0962E599CD9394941E /* Pods-BroncoHack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BroncoHack-umbrella.h"; sourceTree = "<group>"; };
+		21EAC89548F41E9EA0C4AC4237D867B0 /* Pods-BroncoHack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BroncoHack.modulemap"; sourceTree = "<group>"; };
+		22C663EE1AB32717B55B8E5D38EAA1F6 /* Pods-BroncoHack-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BroncoHack-acknowledgements.plist"; sourceTree = "<group>"; };
+		2609947CE1DC759A54C82C081513DFA3 /* Pods-BroncoHackTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHackTests-frameworks.sh"; sourceTree = "<group>"; };
+		2833A4147E644C7B340A04C2ED1D7372 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BE054CB5F113A44D3FD3E4A15EF6A0 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		29EC8BF4887287257763309DF8213A1A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		2C1E9E6939888D3B41442F2574622E7E /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		2DE39A1F1DB2348EA44E430925241D11 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9373C202F8DDE0EFC6909E414203F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30227C659BD6377E7465432CC884563E /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		3127A091D77E2004D5CFFAE30A6AFEF7 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		38890C8DFB1A2A9A5E884B8670FA4AC8 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		3F27BA16B95F88482EE9D1D47E4AAC54 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		41FA17365CD8A3BE8345E5E6B4B8AF91 /* Pods-BroncoHackUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHackUITests-frameworks.sh"; sourceTree = "<group>"; };
+		425DE1D302C3C2A1C7C81627B60D72EC /* Pods-BroncoHackTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BroncoHackTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		442D68FF8F4CAB25E1623EDC3F32094F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EBF998EAB1EC694C319EFB6A40949F /* Pods-BroncoHackTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BroncoHackTests.modulemap"; sourceTree = "<group>"; };
+		4A4EF9387DEAC01C10BDDC717B632B99 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4BD902E18A6894E98EFB78B86EF445D5 /* Pods-BroncoHackUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHackUITests-resources.sh"; sourceTree = "<group>"; };
+		4D6232D0B559ED19EE6557F5A8752888 /* Pods-BroncoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHack.release.xcconfig"; sourceTree = "<group>"; };
+		4E280F89844C2645E76AC54B28728412 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		51BCA181166E831F7C840D8C65DC9FD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52102A056E5A5C8AF80AA3640B99DD28 /* Pods-BroncoHackUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BroncoHackUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6146F046E506045EADA1123A5A709668 /* Pods-BroncoHackTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BroncoHackTests-dummy.m"; sourceTree = "<group>"; };
+		62DC076D3978FE360A1183CB3DE3CCCF /* Pods-BroncoHackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHackTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E74EBE322792DD9E65765D153C67BD9 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742FB10FA6E5002258488BC510390EED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765AC7788D3E2AC1D6945660A4ED7EE6 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		775B7FDF54F35D3FF402DEA22D1093D0 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		7C8B9289C7B641D00C996EBE10DB9247 /* Pods_BroncoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BroncoHack.framework; path = "Pods-BroncoHack.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80408B9EB3F57EC7307A08363CFD6105 /* Pods-BroncoHackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87FB351BC3A8877FEFD9A0E41CDFD46D /* Pods_BroncoHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BroncoHackTests.framework; path = "Pods-BroncoHackTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CC1BF2F9674AFF5A9EB41226D864A7 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		8D930A3E8EF960F9567D41835D2CD2EE /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		90238B4673C2F5ADBFEDF85A8A2015A7 /* Pods-BroncoHackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		913A6EC39AA975E3F2985C2ECD19EB21 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		93244667D35C56A32DD109336462945F /* Pods-BroncoHack-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHack-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E8275317933738C52BD7039C4E0315 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		9A37E7BE6E72EED1700946D9FD858B8D /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		9ACA71DF2FACE923561CD1A2FB61D139 /* Pods-BroncoHackUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BroncoHackUITests.modulemap"; sourceTree = "<group>"; };
+		9C319B52DB119B6E719A17B749BA69C2 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		9F8F6B53523CB72CD0A848DEB30CAE7F /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		A4017726B666FF0BF605AE578A0817E0 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		AD454E49DCDDFCC2C27EDC45E9F4B699 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		AEC2E6012D9AC8CF4488B7D8B7E917EF /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		B577CB185C9CCFEE2536251AE3A3F4F0 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		B977D6BA9F9AE6BBAD36F0B7F0E86EEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B94183CD01B870CF0F532E4B37DE5F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		BC3EE97CA1301A989E01CB7DB301BADB /* Pods-BroncoHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB0431C468C3DBBD37B2AA76C4BE6B9 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C909DC867CAFC6FCAF101D681A955230 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		CA9DDCC4FB540D2D095C9EF7AD06D1F8 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		CC7D611671422623CA157EBB810521A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0F5A147DE6FD89C9A0607266FB5861 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		DABF8E97B745C648FFD9D6D6E7427E0A /* Pods-BroncoHack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BroncoHack-dummy.m"; sourceTree = "<group>"; };
+		DEFF7BF8EF9002E446BE7D62E64C494F /* Pods_BroncoHackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BroncoHackUITests.framework; path = "Pods-BroncoHackUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D729FDBA73B5A995A07FF9B5060425 /* Pods-BroncoHackUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BroncoHackUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC3A3CC4734881DF3AFFFF799FCF9EF5 /* Pods-BroncoHackTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BroncoHackTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED8B5099B368096738240F198E1FB0C4 /* Pods-BroncoHackTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHackTests-resources.sh"; sourceTree = "<group>"; };
+		EE7656A32E490D53165A6315BA347871 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		EF2E84444FFA7A04CF77BD10EACECCB1 /* Pods-BroncoHack-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BroncoHack-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFA07A144EBFFBCDBF1BA001DBB2FDE2 /* Pods-BroncoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BroncoHack.debug.xcconfig"; sourceTree = "<group>"; };
+		F6800394CB7802C799C009E75F765F7B /* Pods-BroncoHack-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BroncoHack-frameworks.sh"; sourceTree = "<group>"; };
+		FB4CD92C51C53B669337D8741D9C175E /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		FCCCBFBC337AA360405CA15F18B9EC07 /* Pods-BroncoHackUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BroncoHackUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD95945C328A92C23C6D1918CADB5971 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364D0E39D2B1E114A72FDE328A176EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3257591CC488AFA775A018DCAFC085 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9024F4774BD8DDE03700B223CF7F8164 /* Foundation.framework in Frameworks */,
+				9DA28C3544749A7DB9AB129BEC773550 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCFC08A00B86DAA1DF8F174D48A3A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB0D5FA64F3B454190E110A13765BA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF7032289533806DAF464D76DD4F95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3495A09A1613E448CB336AEFE617C80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AF5B9503ED3853BEB83F9C7D212FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFE1F1CAB95B03A90C0A6975CA5EF48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C78DFBC49D2F1F33AE5F034D064A59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E8275317933738C52BD7039C4E0315 /* GoogleToolboxForMac.modulemap */,
+				0D68CFB5177A3A2118219A08AB58C54D /* GoogleToolboxForMac.xcconfig */,
+				EE7656A32E490D53165A6315BA347871 /* GoogleToolboxForMac-dummy.m */,
+				FB4CD92C51C53B669337D8741D9C175E /* GoogleToolboxForMac-prefix.pch */,
+				8D930A3E8EF960F9567D41835D2CD2EE /* GoogleToolboxForMac-umbrella.h */,
+				442D68FF8F4CAB25E1623EDC3F32094F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		04D518C529D9828F1842262D402CA6AC /* Pods-BroncoHack */ = {
+			isa = PBXGroup;
+			children = (
+				742FB10FA6E5002258488BC510390EED /* Info.plist */,
+				21EAC89548F41E9EA0C4AC4237D867B0 /* Pods-BroncoHack.modulemap */,
+				EF2E84444FFA7A04CF77BD10EACECCB1 /* Pods-BroncoHack-acknowledgements.markdown */,
+				22C663EE1AB32717B55B8E5D38EAA1F6 /* Pods-BroncoHack-acknowledgements.plist */,
+				DABF8E97B745C648FFD9D6D6E7427E0A /* Pods-BroncoHack-dummy.m */,
+				F6800394CB7802C799C009E75F765F7B /* Pods-BroncoHack-frameworks.sh */,
+				93244667D35C56A32DD109336462945F /* Pods-BroncoHack-resources.sh */,
+				1A21B98704BD9D0962E599CD9394941E /* Pods-BroncoHack-umbrella.h */,
+				EFA07A144EBFFBCDBF1BA001DBB2FDE2 /* Pods-BroncoHack.debug.xcconfig */,
+				4D6232D0B559ED19EE6557F5A8752888 /* Pods-BroncoHack.release.xcconfig */,
+			);
+			name = "Pods-BroncoHack";
+			path = "Target Support Files/Pods-BroncoHack";
+			sourceTree = "<group>";
+		};
+		0C5D6771C950CD64435DAAE6AD5639FE /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				52E8DB3B692B0B7094C95FE112600A2B /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		19AF07D8182CF9827D59B5B770FE3D76 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1BEAD2C70F5BD63FB43E3D023400C /* Defines */,
+				762608D29F6998E21A35DEA55A1085AB /* NSData+zlib */,
+				02C78DFBC49D2F1F33AE5F034D064A59 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		28798DA3D555710AC0CA6696614CB44E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD95945C328A92C23C6D1918CADB5971 /* GTMSessionFetcher.modulemap */,
+				C909DC867CAFC6FCAF101D681A955230 /* GTMSessionFetcher.xcconfig */,
+				BDB0431C468C3DBBD37B2AA76C4BE6B9 /* GTMSessionFetcher-dummy.m */,
+				2C1E9E6939888D3B41442F2574622E7E /* GTMSessionFetcher-prefix.pch */,
+				CA9DDCC4FB540D2D095C9EF7AD06D1F8 /* GTMSessionFetcher-umbrella.h */,
+				B977D6BA9F9AE6BBAD36F0B7F0E86EEF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		308CEE222EC7F4C068E89CB3C8A71206 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				F6F6F5C3062DAE86D40EDE72D29A7F15 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		393110905C3735DC4474A2DB2B3227B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				308CEE222EC7F4C068E89CB3C8A71206 /* Firebase */,
+				D0451452F75B77CFD748EC8E565D0F1A /* FirebaseAnalytics */,
+				A978E45806D4FF3ACA99A93EAF48AD84 /* FirebaseCore */,
+				0C5D6771C950CD64435DAAE6AD5639FE /* FirebaseDatabase */,
+				BCD612169B5A842247CE9A5901B8A1F9 /* FirebaseInstanceID */,
+				511E506425DB958D27FC753CC20EC413 /* FirebaseStorage */,
+				19AF07D8182CF9827D59B5B770FE3D76 /* GoogleToolboxForMac */,
+				C3EBBAECF704E09FA7B7D2AF7AF2EC70 /* GTMSessionFetcher */,
+				D4DC1552419FF1A29BDC5FB9C5CA6289 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C42DC51EACA1EB41C41517C32BD67C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A37E7BE6E72EED1700946D9FD858B8D /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4199228A9C564FBB492ADE19FF5C6B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE39A1F1DB2348EA44E430925241D11 /* GoogleToolboxForMac.framework */,
+				6E74EBE322792DD9E65765D153C67BD9 /* GTMSessionFetcher.framework */,
+				7C8B9289C7B641D00C996EBE10DB9247 /* Pods_BroncoHack.framework */,
+				87FB351BC3A8877FEFD9A0E41CDFD46D /* Pods_BroncoHackTests.framework */,
+				DEFF7BF8EF9002E446BE7D62E64C494F /* Pods_BroncoHackUITests.framework */,
+				2833A4147E644C7B340A04C2ED1D7372 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		511E506425DB958D27FC753CC20EC413 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BA0BE9C6830D1330F973426AA87E50F2 /* Frameworks */,
+			);
+			name = FirebaseStorage;
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		512BAB075FED33B9510AFA31BE302284 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D518C529D9828F1842262D402CA6AC /* Pods-BroncoHack */,
+				CF3115DE11F943DEFCA481BB47A4BEEF /* Pods-BroncoHackTests */,
+				C412ABF885AC6A73774BCFA55A4EC0CA /* Pods-BroncoHackUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52E8DB3B692B0B7094C95FE112600A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0F5A147DE6FD89C9A0607266FB5861 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CB73D33F09C062542A8E2EF9878A4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29EC8BF4887287257763309DF8213A1A /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		762608D29F6998E21A35DEA55A1085AB /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				9F8F6B53523CB72CD0A848DEB30CAE7F /* GTMNSData+zlib.h */,
+				88CC1BF2F9674AFF5A9EB41226D864A7 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				393110905C3735DC4474A2DB2B3227B5 /* Pods */,
+				4199228A9C564FBB492ADE19FF5C6B67 /* Products */,
+				512BAB075FED33B9510AFA31BE302284 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A978E45806D4FF3ACA99A93EAF48AD84 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				6CB73D33F09C062542A8E2EF9878A4C3 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		BA0BE9C6830D1330F973426AA87E50F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3127A091D77E2004D5CFFAE30A6AFEF7 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD612169B5A842247CE9A5901B8A1F9 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3C42DC51EACA1EB41C41517C32BD67C7 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C3EBBAECF704E09FA7B7D2AF7AF2EC70 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F05AF4B3A149D7CD7CDA277D62175EB7 /* Core */,
+				28798DA3D555710AC0CA6696614CB44E /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		C412ABF885AC6A73774BCFA55A4EC0CA /* Pods-BroncoHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E9373C202F8DDE0EFC6909E414203F8 /* Info.plist */,
+				9ACA71DF2FACE923561CD1A2FB61D139 /* Pods-BroncoHackUITests.modulemap */,
+				52102A056E5A5C8AF80AA3640B99DD28 /* Pods-BroncoHackUITests-acknowledgements.markdown */,
+				FCCCBFBC337AA360405CA15F18B9EC07 /* Pods-BroncoHackUITests-acknowledgements.plist */,
+				18528171C873965D5C955767073DE179 /* Pods-BroncoHackUITests-dummy.m */,
+				41FA17365CD8A3BE8345E5E6B4B8AF91 /* Pods-BroncoHackUITests-frameworks.sh */,
+				4BD902E18A6894E98EFB78B86EF445D5 /* Pods-BroncoHackUITests-resources.sh */,
+				E5D729FDBA73B5A995A07FF9B5060425 /* Pods-BroncoHackUITests-umbrella.h */,
+				90238B4673C2F5ADBFEDF85A8A2015A7 /* Pods-BroncoHackUITests.debug.xcconfig */,
+				80408B9EB3F57EC7307A08363CFD6105 /* Pods-BroncoHackUITests.release.xcconfig */,
+			);
+			name = "Pods-BroncoHackUITests";
+			path = "Target Support Files/Pods-BroncoHackUITests";
+			sourceTree = "<group>";
+		};
+		CF3115DE11F943DEFCA481BB47A4BEEF /* Pods-BroncoHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				51BCA181166E831F7C840D8C65DC9FD1 /* Info.plist */,
+				49EBF998EAB1EC694C319EFB6A40949F /* Pods-BroncoHackTests.modulemap */,
+				EC3A3CC4734881DF3AFFFF799FCF9EF5 /* Pods-BroncoHackTests-acknowledgements.markdown */,
+				425DE1D302C3C2A1C7C81627B60D72EC /* Pods-BroncoHackTests-acknowledgements.plist */,
+				6146F046E506045EADA1123A5A709668 /* Pods-BroncoHackTests-dummy.m */,
+				2609947CE1DC759A54C82C081513DFA3 /* Pods-BroncoHackTests-frameworks.sh */,
+				ED8B5099B368096738240F198E1FB0C4 /* Pods-BroncoHackTests-resources.sh */,
+				1701E520B0112920C3C59A478DC00287 /* Pods-BroncoHackTests-umbrella.h */,
+				BC3EE97CA1301A989E01CB7DB301BADB /* Pods-BroncoHackTests.debug.xcconfig */,
+				62DC076D3978FE360A1183CB3DE3CCCF /* Pods-BroncoHackTests.release.xcconfig */,
+			);
+			name = "Pods-BroncoHackTests";
+			path = "Target Support Files/Pods-BroncoHackTests";
+			sourceTree = "<group>";
+		};
+		D0451452F75B77CFD748EC8E565D0F1A /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				D73EECEFDBDA0CFF46EEBD2453358076 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		D4DC1552419FF1A29BDC5FB9C5CA6289 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3F27BA16B95F88482EE9D1D47E4AAC54 /* SkyFloatingLabelTextField.swift */,
+				A4017726B666FF0BF605AE578A0817E0 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				775B7FDF54F35D3FF402DEA22D1093D0 /* UITextField+fixCaretPosition.swift */,
+				F5C66937B8A9FC1D614A60CD2AC93181 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		D73EECEFDBDA0CFF46EEBD2453358076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001B07D1B24413BD6A7B08D425787F8B /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05AF4B3A149D7CD7CDA277D62175EB7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0D35BE2A8DA4F3039C13D9BFE06D3157 /* GTMSessionFetcher.h */,
+				0D209233FBF0FFF430D05E425088E223 /* GTMSessionFetcher.m */,
+				913A6EC39AA975E3F2985C2ECD19EB21 /* GTMSessionFetcherLogging.h */,
+				38890C8DFB1A2A9A5E884B8670FA4AC8 /* GTMSessionFetcherLogging.m */,
+				9C319B52DB119B6E719A17B749BA69C2 /* GTMSessionFetcherService.h */,
+				0F0F7858944949D3DB63241B69D248BD /* GTMSessionFetcherService.m */,
+				AD454E49DCDDFCC2C27EDC45E9F4B699 /* GTMSessionUploadFetcher.h */,
+				AEC2E6012D9AC8CF4488B7D8B7E917EF /* GTMSessionUploadFetcher.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F2B1BEAD2C70F5BD63FB43E3D023400C /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				4A4EF9387DEAC01C10BDDC717B632B99 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		F5C66937B8A9FC1D614A60CD2AC93181 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D611671422623CA157EBB810521A6 /* Info.plist */,
+				B577CB185C9CCFEE2536251AE3A3F4F0 /* SkyFloatingLabelTextField.modulemap */,
+				765AC7788D3E2AC1D6945660A4ED7EE6 /* SkyFloatingLabelTextField.xcconfig */,
+				28BE054CB5F113A44D3FD3E4A15EF6A0 /* SkyFloatingLabelTextField-dummy.m */,
+				4E280F89844C2645E76AC54B28728412 /* SkyFloatingLabelTextField-prefix.pch */,
+				30227C659BD6377E7465432CC884563E /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		F6F6F5C3062DAE86D40EDE72D29A7F15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B9B94183CD01B870CF0F532E4B37DE5F /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DE87A1BE4C2A6DBA6E7F8466DE6FCD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE472C30F1165390B13A76FF92120849 /* Pods-BroncoHackTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2982154D036540433293BE14E08CB90B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0949F63A2FD04FCC0DF6A4090E40FD /* Pods-BroncoHack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D993B88C10479096F17ADDEAB85D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */,
+				8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */,
+				1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */,
+				DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */,
+				F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7ED8D4FAE7E02A2AF67F4387B9942A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3A5DC7B6D2EC8380A23C8D0F3B9FC /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B1756655BCEFB73FE74658229E4BF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507EC65F3D760296A876CC2D7AC37B38 /* Pods-BroncoHackUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 2DE39A1F1DB2348EA44E430925241D11 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0475E18718EC84B397BD9A21B2A2B4F4 /* Pods-BroncoHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BABEEE351891D3125A38D8203A8251 /* Build configuration list for PBXNativeTarget "Pods-BroncoHack" */;
+			buildPhases = (
+				B93FC83BEDC96F9911CDAFEB0CCBA746 /* Sources */,
+				F1AF5B9503ED3853BEB83F9C7D212FB9 /* Frameworks */,
+				2982154D036540433293BE14E08CB90B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53AA959895D05BD918AF64674661BA21 /* PBXTargetDependency */,
+				DE1775C5B42B15200D3BCCCC611E0321 /* PBXTargetDependency */,
+				5DBCECAF76C88DDCC64BF4FECF5F93F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BroncoHack";
+			productName = "Pods-BroncoHack";
+			productReference = 7C8B9289C7B641D00C996EBE10DB9247 /* Pods_BroncoHack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE0ACBEBFB52A4FE5D864404493DC241 /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179C0CC5B4F839EB3145B9E666ECDA13 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				B781C87B41CE04ED4FB885D40B74FA40 /* Sources */,
+				6DCFC08A00B86DAA1DF8F174D48A3A91 /* Frameworks */,
+				9F7ED8D4FAE7E02A2AF67F4387B9942A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 2833A4147E644C7B340A04C2ED1D7372 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
+			buildPhases = (
+				C5A309EC5A80A27DBD420C5176E2122A /* Sources */,
+				6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */,
+				82D993B88C10479096F17ADDEAB85D94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = 6E74EBE322792DD9E65765D153C67BD9 /* GTMSessionFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD92960C8424E7AF8603996214AC8475 /* Pods-BroncoHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D388F49A267B807CAF2B35F30E04E4 /* Build configuration list for PBXNativeTarget "Pods-BroncoHackTests" */;
+			buildPhases = (
+				5CEEF1160A0FAF6A4945C6D4C0B65692 /* Sources */,
+				ADF7032289533806DAF464D76DD4F95A /* Frameworks */,
+				1DE87A1BE4C2A6DBA6E7F8466DE6FCD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BroncoHackTests";
+			productName = "Pods-BroncoHackTests";
+			productReference = 87FB351BC3A8877FEFD9A0E41CDFD46D /* Pods_BroncoHackTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF70106152F2DE41E31E7D774CD0D0B1 /* Pods-BroncoHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84FA0E6FF408AE6C7505D0287189E4A /* Build configuration list for PBXNativeTarget "Pods-BroncoHackUITests" */;
+			buildPhases = (
+				A86C2F471923ADA8B1F9189A769EB8B1 /* Sources */,
+				364D0E39D2B1E114A72FDE328A176EC1 /* Frameworks */,
+				B5B1756655BCEFB73FE74658229E4BF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BroncoHackUITests";
+			productName = "Pods-BroncoHackUITests";
+			productReference = DEFF7BF8EF9002E446BE7D62E64C494F /* Pods_BroncoHackUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4199228A9C564FBB492ADE19FF5C6B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */,
+				0475E18718EC84B397BD9A21B2A2B4F4 /* Pods-BroncoHack */,
+				CD92960C8424E7AF8603996214AC8475 /* Pods-BroncoHackTests */,
+				DF70106152F2DE41E31E7D774CD0D0B1 /* Pods-BroncoHackUITests */,
+				AE0ACBEBFB52A4FE5D864404493DC241 /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CEEF1160A0FAF6A4945C6D4C0B65692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50609A97FC1D70753AA25867F3DB260F /* Pods-BroncoHackTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86C2F471923ADA8B1F9189A769EB8B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B18874234D65F8AEC31D287AD0CBE /* Pods-BroncoHackUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B781C87B41CE04ED4FB885D40B74FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13730814406B5DC2702B1D968510C35 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				025479F3F621E5CF878BA32BBCA8A7D3 /* SkyFloatingLabelTextField.swift in Sources */,
+				278B1F0742FBAAF52B0CE69BB234F7B0 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				2E08EE7618B68E96823DA0496A5C79E7 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93FC83BEDC96F9911CDAFEB0CCBA746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FF475B779E2598BFBB0E259EC03830 /* Pods-BroncoHack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A309EC5A80A27DBD420C5176E2122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */,
+				64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */,
+				07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */,
+				95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */,
+				F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53AA959895D05BD918AF64674661BA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */;
+			targetProxy = CACA8F4349C26793BFFBF0B95A2E64B2 /* PBXContainerItemProxy */;
+		};
+		5DBCECAF76C88DDCC64BF4FECF5F93F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = AE0ACBEBFB52A4FE5D864404493DC241 /* SkyFloatingLabelTextField */;
+			targetProxy = 56109AAD0FDC8A9680CE328E7F333086 /* PBXContainerItemProxy */;
+		};
+		DE1775C5B42B15200D3BCCCC611E0321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = B8233D26C0E4EA4044C913AE5046B6E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F3D0543EA4C1C47C5D31093A788859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6232D0B559ED19EE6557F5A8752888 /* Pods-BroncoHack.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHack/Pods-BroncoHack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07548F4F102CA4C124CEA597277FEDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3EE97CA1301A989E01CB7DB301BADB /* Pods-BroncoHackTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHackTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHackTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		138468250C70D028242EB205489437D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80408B9EB3F57EC7307A08363CFD6105 /* Pods-BroncoHackUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHackUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHackUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		173EB991F4189BD0521FB9FF314C1A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C909DC867CAFC6FCAF101D681A955230 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26E2735A1A28F5BCAEF105FD4182B627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA07A144EBFFBCDBF1BA001DBB2FDE2 /* Pods-BroncoHack.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHack/Pods-BroncoHack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		341C3F5E95D98A5BE27CE582E1EA269B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90238B4673C2F5ADBFEDF85A8A2015A7 /* Pods-BroncoHackUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHackUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHackUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D68CFB5177A3A2118219A08AB58C54D /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EC9DDC590E000FC3BF93D2E1B5E2AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C909DC867CAFC6FCAF101D681A955230 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D68CFB5177A3A2118219A08AB58C54D /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4943D6FE1B9A22D4BE56EC189CA056C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DC076D3978FE360A1183CB3DE3CCCF /* Pods-BroncoHackTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BroncoHackTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BroncoHackTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9AB81BFD05E6D67605417F865AD0797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D38BF0305DFBF568BDE8909CB0C4D162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765AC7788D3E2AC1D6945660A4ED7EE6 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8E142ECD13EEBFC12972921F4CB553F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765AC7788D3E2AC1D6945660A4ED7EE6 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDC2AA7A769C7EC8985877948E1A0E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179C0CC5B4F839EB3145B9E666ECDA13 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BF0305DFBF568BDE8909CB0C4D162 /* Debug */,
+				E8E142ECD13EEBFC12972921F4CB553F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AB81BFD05E6D67605417F865AD0797 /* Debug */,
+				EDC2AA7A769C7EC8985877948E1A0E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BABEEE351891D3125A38D8203A8251 /* Build configuration list for PBXNativeTarget "Pods-BroncoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E2735A1A28F5BCAEF105FD4182B627 /* Debug */,
+				02F3D0543EA4C1C47C5D31093A788859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D388F49A267B807CAF2B35F30E04E4 /* Build configuration list for PBXNativeTarget "Pods-BroncoHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07548F4F102CA4C124CEA597277FEDF8 /* Debug */,
+				C4943D6FE1B9A22D4BE56EC189CA056C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84FA0E6FF408AE6C7505D0287189E4A /* Build configuration list for PBXNativeTarget "Pods-BroncoHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341C3F5E95D98A5BE27CE582E1EA269B /* Debug */,
+				138468250C70D028242EB205489437D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173EB991F4189BD0521FB9FF314C1A99 /* Debug */,
+				5EC9DDC590E000FC3BF93D2E1B5E2AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

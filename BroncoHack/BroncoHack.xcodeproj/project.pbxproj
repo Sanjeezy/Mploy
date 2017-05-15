@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CE6249A0817B650B91E84E /* Pods_BroncoHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C0AB9318727959AABD8128 /* Pods_BroncoHack.framework */; };
+		01F818985E26376F6589BF25 /* Pods_BroncoHackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F290261597A138E88654BEC1 /* Pods_BroncoHackTests.framework */; };
+		1F4549DF48237D6821F62A1D /* Pods_BroncoHackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA033AA15DB99909783A6FE5 /* Pods_BroncoHackUITests.framework */; };
+		56B05D921EA1878200B97323 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B05D911EA1878100B97323 /* camera.png */; };
+		56B05D941EA18B1100B97323 /* cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B05D931EA18B1100B97323 /* cam.png */; };
+		56B05D961EA18BE500B97323 /* Screenshot-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B05D951EA18BE500B97323 /* Screenshot-100.png */; };
+		56C2317C1EA1716400ED9647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C2317B1EA1716400ED9647 /* GoogleService-Info.plist */; };
+		56C2317D1EA1716400ED9647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C2317B1EA1716400ED9647 /* GoogleService-Info.plist */; };
+		56C2317E1EA1716400ED9647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C2317B1EA1716400ED9647 /* GoogleService-Info.plist */; };
+		56C354371EA16A6000AB97CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C354361EA16A6000AB97CB /* AppDelegate.swift */; };
+		56C3543E1EA16A6000AB97CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C3543C1EA16A6000AB97CB /* Main.storyboard */; };
+		56C354401EA16A6000AB97CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C3543F1EA16A6000AB97CB /* Assets.xcassets */; };
+		56C354431EA16A6000AB97CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C354411EA16A6000AB97CB /* LaunchScreen.storyboard */; };
+		56C3544E1EA16A6000AB97CB /* BroncoHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3544D1EA16A6000AB97CB /* BroncoHackTests.swift */; };
+		56C354591EA16A6000AB97CB /* BroncoHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C354581EA16A6000AB97CB /* BroncoHackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56C3544A1EA16A6000AB97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C3542B1EA16A5F00AB97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C354321EA16A5F00AB97CB;
+			remoteInfo = BroncoHack;
+		};
+		56C354551EA16A6000AB97CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C3542B1EA16A5F00AB97CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C354321EA16A5F00AB97CB;
+			remoteInfo = BroncoHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EB88199B754873165EE9A4 /* Pods-BroncoHackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D08594F5FA3D20549AEF2E0 /* Pods-BroncoHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		468E291A439AA995AFC95930 /* Pods-BroncoHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHack/Pods-BroncoHack.debug.xcconfig"; sourceTree = "<group>"; };
+		56B05D911EA1878100B97323 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = SOURCE_ROOT; };
+		56B05D931EA18B1100B97323 /* cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cam.png; path = ../../../cam.png; sourceTree = "<group>"; };
+		56B05D951EA18BE500B97323 /* Screenshot-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot-100.png"; path = "../../../../Downloads/Screenshot-100.png"; sourceTree = "<group>"; };
+		56C2317B1EA1716400ED9647 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56C354331EA16A6000AB97CB /* BroncoHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroncoHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C354361EA16A6000AB97CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56C3543D1EA16A6000AB97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56C3543F1EA16A6000AB97CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56C354421EA16A6000AB97CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56C354441EA16A6000AB97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C354491EA16A6000AB97CB /* BroncoHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroncoHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C3544D1EA16A6000AB97CB /* BroncoHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroncoHackTests.swift; sourceTree = "<group>"; };
+		56C3544F1EA16A6000AB97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C354541EA16A6000AB97CB /* BroncoHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroncoHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C354581EA16A6000AB97CB /* BroncoHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroncoHackUITests.swift; sourceTree = "<group>"; };
+		56C3545A1EA16A6000AB97CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731C618CF815105A0F769E4C /* Pods-BroncoHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHack/Pods-BroncoHack.release.xcconfig"; sourceTree = "<group>"; };
+		81AEA2C61ED225947A157CBD /* Pods-BroncoHackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA033AA15DB99909783A6FE5 /* Pods_BroncoHackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroncoHackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C0AB9318727959AABD8128 /* Pods_BroncoHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroncoHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21DCA07859CB70CE5BF2488 /* Pods-BroncoHackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroncoHackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F290261597A138E88654BEC1 /* Pods_BroncoHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroncoHackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56C354301EA16A5F00AB97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CE6249A0817B650B91E84E /* Pods_BroncoHack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354461EA16A6000AB97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F818985E26376F6589BF25 /* Pods_BroncoHackTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354511EA16A6000AB97CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4549DF48237D6821F62A1D /* Pods_BroncoHackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56C3542A1EA16A5F00AB97CB = {
+			isa = PBXGroup;
+			children = (
+				56C354351EA16A6000AB97CB /* BroncoHack */,
+				56C3544C1EA16A6000AB97CB /* BroncoHackTests */,
+				56C354571EA16A6000AB97CB /* BroncoHackUITests */,
+				56C354341EA16A6000AB97CB /* Products */,
+				B1316D4F47770CE19FFBAC11 /* Pods */,
+				701485ED5CD14D9498FD616F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56C354341EA16A6000AB97CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56C354331EA16A6000AB97CB /* BroncoHack.app */,
+				56C354491EA16A6000AB97CB /* BroncoHackTests.xctest */,
+				56C354541EA16A6000AB97CB /* BroncoHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56C354351EA16A6000AB97CB /* BroncoHack */ = {
+			isa = PBXGroup;
+			children = (
+				56C354361EA16A6000AB97CB /* AppDelegate.swift */,
+				56C3543C1EA16A6000AB97CB /* Main.storyboard */,
+				56B05D951EA18BE500B97323 /* Screenshot-100.png */,
+				56C3543F1EA16A6000AB97CB /* Assets.xcassets */,
+				56B05D911EA1878100B97323 /* camera.png */,
+				56B05D931EA18B1100B97323 /* cam.png */,
+				56C354411EA16A6000AB97CB /* LaunchScreen.storyboard */,
+				56C354441EA16A6000AB97CB /* Info.plist */,
+				56C2317B1EA1716400ED9647 /* GoogleService-Info.plist */,
+			);
+			path = BroncoHack;
+			sourceTree = "<group>";
+		};
+		56C3544C1EA16A6000AB97CB /* BroncoHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				56C3544D1EA16A6000AB97CB /* BroncoHackTests.swift */,
+				56C3544F1EA16A6000AB97CB /* Info.plist */,
+			);
+			path = BroncoHackTests;
+			sourceTree = "<group>";
+		};
+		56C354571EA16A6000AB97CB /* BroncoHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56C354581EA16A6000AB97CB /* BroncoHackUITests.swift */,
+				56C3545A1EA16A6000AB97CB /* Info.plist */,
+			);
+			path = BroncoHackUITests;
+			sourceTree = "<group>";
+		};
+		701485ED5CD14D9498FD616F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0AB9318727959AABD8128 /* Pods_BroncoHack.framework */,
+				F290261597A138E88654BEC1 /* Pods_BroncoHackTests.framework */,
+				AA033AA15DB99909783A6FE5 /* Pods_BroncoHackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1316D4F47770CE19FFBAC11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				468E291A439AA995AFC95930 /* Pods-BroncoHack.debug.xcconfig */,
+				731C618CF815105A0F769E4C /* Pods-BroncoHack.release.xcconfig */,
+				3D08594F5FA3D20549AEF2E0 /* Pods-BroncoHackTests.debug.xcconfig */,
+				07EB88199B754873165EE9A4 /* Pods-BroncoHackTests.release.xcconfig */,
+				81AEA2C61ED225947A157CBD /* Pods-BroncoHackUITests.debug.xcconfig */,
+				C21DCA07859CB70CE5BF2488 /* Pods-BroncoHackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56C354321EA16A5F00AB97CB /* BroncoHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C3545D1EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHack" */;
+			buildPhases = (
+				FEDABB73F7E692953176ACC9 /* [CP] Check Pods Manifest.lock */,
+				56C3542F1EA16A5F00AB97CB /* Sources */,
+				56C354301EA16A5F00AB97CB /* Frameworks */,
+				56C354311EA16A5F00AB97CB /* Resources */,
+				F61F1E1291AB697163F74A5F /* [CP] Embed Pods Frameworks */,
+				090D50B0161F8BC8F44A98BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroncoHack;
+			productName = BroncoHack;
+			productReference = 56C354331EA16A6000AB97CB /* BroncoHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56C354481EA16A6000AB97CB /* BroncoHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C354601EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHackTests" */;
+			buildPhases = (
+				7FE9757EB040250A5E7C29A2 /* [CP] Check Pods Manifest.lock */,
+				56C354451EA16A6000AB97CB /* Sources */,
+				56C354461EA16A6000AB97CB /* Frameworks */,
+				56C354471EA16A6000AB97CB /* Resources */,
+				6F7363BE30A8250557889431 /* [CP] Embed Pods Frameworks */,
+				3AC50E2DFFBCE510EE9FE1A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C3544B1EA16A6000AB97CB /* PBXTargetDependency */,
+			);
+			name = BroncoHackTests;
+			productName = BroncoHackTests;
+			productReference = 56C354491EA16A6000AB97CB /* BroncoHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56C354531EA16A6000AB97CB /* BroncoHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C354631EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHackUITests" */;
+			buildPhases = (
+				692FFA40AD779F5A193B6865 /* [CP] Check Pods Manifest.lock */,
+				56C354501EA16A6000AB97CB /* Sources */,
+				56C354511EA16A6000AB97CB /* Frameworks */,
+				56C354521EA16A6000AB97CB /* Resources */,
+				1DB1BCEE956B7D28CFEC6AFC /* [CP] Embed Pods Frameworks */,
+				42EB5D8E7A18DB71CBE2F8A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C354561EA16A6000AB97CB /* PBXTargetDependency */,
+			);
+			name = BroncoHackUITests;
+			productName = BroncoHackUITests;
+			productReference = 56C354541EA16A6000AB97CB /* BroncoHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56C3542B1EA16A5F00AB97CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SanjayTamizharasu;
+				TargetAttributes = {
+					56C354321EA16A5F00AB97CB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T9XXX743W3;
+						ProvisioningStyle = Automatic;
+					};
+					56C354481EA16A6000AB97CB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56C354321EA16A5F00AB97CB;
+					};
+					56C354531EA16A6000AB97CB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56C354321EA16A5F00AB97CB;
+					};
+				};
+			};
+			buildConfigurationList = 56C3542E1EA16A5F00AB97CB /* Build configuration list for PBXProject "BroncoHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56C3542A1EA16A5F00AB97CB;
+			productRefGroup = 56C354341EA16A6000AB97CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56C354321EA16A5F00AB97CB /* BroncoHack */,
+				56C354481EA16A6000AB97CB /* BroncoHackTests */,
+				56C354531EA16A6000AB97CB /* BroncoHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56C354311EA16A5F00AB97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C354431EA16A6000AB97CB /* LaunchScreen.storyboard in Resources */,
+				56B05D961EA18BE500B97323 /* Screenshot-100.png in Resources */,
+				56C2317C1EA1716400ED9647 /* GoogleService-Info.plist in Resources */,
+				56C354401EA16A6000AB97CB /* Assets.xcassets in Resources */,
+				56B05D941EA18B1100B97323 /* cam.png in Resources */,
+				56C3543E1EA16A6000AB97CB /* Main.storyboard in Resources */,
+				56B05D921EA1878200B97323 /* camera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354471EA16A6000AB97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C2317D1EA1716400ED9647 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354521EA16A6000AB97CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C2317E1EA1716400ED9647 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090D50B0161F8BC8F44A98BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHack/Pods-BroncoHack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB1BCEE956B7D28CFEC6AFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC50E2DFFBCE510EE9FE1A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EB5D8E7A18DB71CBE2F8A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHackUITests/Pods-BroncoHackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692FFA40AD779F5A193B6865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7363BE30A8250557889431 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHackTests/Pods-BroncoHackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE9757EB040250A5E7C29A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F61F1E1291AB697163F74A5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroncoHack/Pods-BroncoHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDABB73F7E692953176ACC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C3542F1EA16A5F00AB97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C354371EA16A6000AB97CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354451EA16A6000AB97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C3544E1EA16A6000AB97CB /* BroncoHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C354501EA16A6000AB97CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C354591EA16A6000AB97CB /* BroncoHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56C3544B1EA16A6000AB97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C354321EA16A5F00AB97CB /* BroncoHack */;
+			targetProxy = 56C3544A1EA16A6000AB97CB /* PBXContainerItemProxy */;
+		};
+		56C354561EA16A6000AB97CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C354321EA16A5F00AB97CB /* BroncoHack */;
+			targetProxy = 56C354551EA16A6000AB97CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56C3543C1EA16A6000AB97CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C3543D1EA16A6000AB97CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56C354411EA16A6000AB97CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C354421EA16A6000AB97CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56C3545B1EA16A6000AB97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56C3545C1EA16A6000AB97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56C3545E1EA16A6000AB97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468E291A439AA995AFC95930 /* Pods-BroncoHack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9XXX743W3;
+				INFOPLIST_FILE = BroncoHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56C3545F1EA16A6000AB97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731C618CF815105A0F769E4C /* Pods-BroncoHack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9XXX743W3;
+				INFOPLIST_FILE = BroncoHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		56C354611EA16A6000AB97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D08594F5FA3D20549AEF2E0 /* Pods-BroncoHackTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BroncoHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BroncoHack.app/BroncoHack";
+			};
+			name = Debug;
+		};
+		56C354621EA16A6000AB97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EB88199B754873165EE9A4 /* Pods-BroncoHackTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BroncoHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BroncoHack.app/BroncoHack";
+			};
+			name = Release;
+		};
+		56C354641EA16A6000AB97CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AEA2C61ED225947A157CBD /* Pods-BroncoHackUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BroncoHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BroncoHack;
+			};
+			name = Debug;
+		};
+		56C354651EA16A6000AB97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21DCA07859CB70CE5BF2488 /* Pods-BroncoHackUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BroncoHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaytamizharasu.sample.BroncoHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BroncoHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56C3542E1EA16A5F00AB97CB /* Build configuration list for PBXProject "BroncoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C3545B1EA16A6000AB97CB /* Debug */,
+				56C3545C1EA16A6000AB97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C3545D1EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C3545E1EA16A6000AB97CB /* Debug */,
+				56C3545F1EA16A6000AB97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C354601EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C354611EA16A6000AB97CB /* Debug */,
+				56C354621EA16A6000AB97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C354631EA16A6000AB97CB /* Build configuration list for PBXNativeTarget "BroncoHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C354641EA16A6000AB97CB /* Debug */,
+				56C354651EA16A6000AB97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56C3542B1EA16A5F00AB97CB /* Project object */;
+}
